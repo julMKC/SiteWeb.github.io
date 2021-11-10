@@ -1,0 +1,100 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/img/accbck.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Edition du Boutton et postionnement au centre de la page*/
+
+button {
+    color: #fdfffd;
+    padding: 10px 25px;
+    background: transparent;
+    border: 3px solid #f5aa92;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn {
+    color: #a86a6a;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn :hover {
+    color: #f9b79d;
+}
+
+/* Placement du texte au centre de la page */
+
+.text {
+    color: #f5aa92;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+    font-size: 20px;
+}
+
+/* Barre de tache a gauche avec les liens */
+.barregauche {
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(#271b29 65%, #121d31 );
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+
+
+
+.social img {
+    width: 50px;
+    margin: 2px auto;
+    cursor: pointer;
+}
+
+
+.social {
+    width: 50px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.info img { 
+
+    width: 50px;
+    margin: 2px auto;
+    cursor: pointer;
+
+}
+
+.info {
+    width: 50px;
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    right: 50%;
+    transform: translate(50%, -40%);
+}
+
+h2 {
+    position: fixed;
+    right: -100%;
+    color: white;
+}
